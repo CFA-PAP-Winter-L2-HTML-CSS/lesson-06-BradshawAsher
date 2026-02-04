@@ -1,0 +1,35 @@
+Animal Aristocracy Revisited
+
+Exercise 1
+1. In index.html:
+Add 3 more animal aristocrat images
+
+Exercise 2
+1. In index.html:
+Under each image add: 
+h3 with text - name of aristocrat
+p with text - description one silly sentence about the animal or lorem ipsum 
+
+Exercise 3
+1. Wrap a div tag around each group of img, h3, and p, (so that the picture, heading, and description for each aristocrat is contained in a div)
+
+Exercise 4
+1. In style.css, select all the div tags by tag tagname
+Set display so the divs line up next to each other 
+Set the width of the divs around 300px - 375px
+Set padding
+Set margin
+Set background-color
+
+Exercise 5
+1. In style.css, edit the styles for the images
+Keep the images from overlapping or spilling outside the divs
+You will need to do some simple math
+Remove the left and right margins on the images 
+Instead, create space around them by adjusting padding set on the divs
+Remove the height setting from the images
+Calculate a new width for images so they fit inside the width of the divs, remember to account for padding and border
+
+Exercise 6
+1. In index.html, wrap a main tag around the divs
+2. In style.css, set max-width on the main tag so only 3 divs fit per row at the largest screen sizes and center it with margin auto

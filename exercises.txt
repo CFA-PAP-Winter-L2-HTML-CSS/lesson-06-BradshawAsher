@@ -1,0 +1,60 @@
+Color palette
+#010c45 a dark navy blue
+#0e5b8f a dark sky blue
+#7bc9d0 a medium carribean aqua
+
+Exercise 1
+1. Look inside the images folder. Pick 6 cruise ship destinations
+2. In index.html:
+Add 6 anchor tags, 1 for each destination. 
+Set href to the google search url with keywords: https://google.com/search?q=destination+cruise
+Set target to _blank
+
+Exercise 2
+1. Wrap a div tag around each anchor tag
+
+Exercise 3 
+1. In style.css: Select all the div tags by using the tagname
+Set display to inline-block
+Set width to 320px
+Set height to 320px
+Set margin to 25px
+Set background-color to #7bc9d0
+Set box-shadow to 0 0 15px #0e5b8f
+
+Exercise 4
+1. In style.css: Add the following style rules to the existing rules for the div tags
+Set border-radius to 50%
+Set background-size to cover
+Set background-repeat to no-repeat
+Set background-position to center center
+2. In index.html: Add an id attribute to each div tag
+Set its value the same as the destination in the anchor tag it wraps
+3. In style.css: Select each div by its id name
+Set the corresponding background image for the destination 
+
+Exercise 5
+1. In style.css: Select all anchor tags by using the tagname
+Set margin to auto
+Set margin-top to 35%
+Set padding to 5% 10%
+Set width to fit-content
+Set border-radius to 10px
+Set background-color to #010c45
+Set color to white
+Set font-size to 1.5em
+Set text-decoration to none
+1. Select the anchor tags in the hover state
+Set background-color to #7bc9d0
+Set color to #010c45
+
+Exercise 6
+1. In style.css: Add the following style rule to the 
+existing style rules for the anchor tag:
+Set display to block
+
+Exercise 7
+1. In index.html, wrap a main tag around the div tags
+2. In style.css,
+Set margin to auto
+Set max-width to 1120px
