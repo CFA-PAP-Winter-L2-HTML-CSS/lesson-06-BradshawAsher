@@ -26,3 +26,67 @@ h1 {
 }
 
 /* ============ Student code ============= */
+div{
+    display: inline-block;
+    width: 320px;
+    height: 320px;
+    margin: 25px;
+    background-color: #7bc9d0;
+    box-shadow: 0 0 15px #0e5b8f;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+a{
+    display: block;
+    margin: auto;
+    margin-top: 35%;
+    padding: 5% 10%;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #010c45;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #010c45;
+    background-color: #7bc9d0;
+    cursor: pointer;
+}
+
+main{
+    margin: auto;
+    max-width: 1120px;
+}
+
+#baltic{
+    background-image: url(images/baltic.jpg);
+}
+
+#alaska{
+    background-image: url(images/alaska.jpg);
+}
+
+#bahamas{
+    background-image: url(images/bahamas-fernando-jorge.jpg);
+}
+
+#japan{
+    background-image: url(images/japan.jpg);
+}
+
+#norway{
+    background-image: url(images/norway.jpg);
+}
+
+#mexico{
+    background-image: url(images/mexico-alonso-reyes.jpg);
+}
+
+
+
+
