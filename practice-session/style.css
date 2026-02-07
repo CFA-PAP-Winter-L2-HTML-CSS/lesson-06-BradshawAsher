@@ -19,7 +19,7 @@ h1 {
     text-shadow: 0 0 15px #000;
 }
 
-img {
+/* img {
     height: 380px;
     border: ridge 10px #af8b2b;
     margin-left: 15px;
@@ -27,7 +27,7 @@ img {
     padding: 20px;
     background-color: #2e1414;
     box-shadow: 10px 15px 20px 5px black;
-}
+} */
 
 h1 {
     background-color: #132c33;
@@ -39,3 +39,23 @@ h1 {
 
 
 /* ============ Student code ============= */
+div {
+    display: inline-block;
+    width: 320px;
+    padding: 20px;
+    margin: 15px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+img {
+    width: 260px;
+    border: ridge 10px #af8b2b;
+    padding: 10px;
+    background-color: #2e1414;
+    box-shadow: 10px 15px 20px 5px black;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+}
